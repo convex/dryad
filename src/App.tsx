@@ -93,7 +93,7 @@ function App() {
             </span>
             <span className="pl-4">
               <a
-                href="https://github.com/get-convex/dryad"
+                href="https://github.com/convex/dryad"
                 className="hover:underline"
                 target="_blank"
               >
