@@ -21,12 +21,12 @@ Features:
 
 First, clone the repository and start it up:
 
-    $ git clone https://github.com/get-convex/dryad.git
+    $ git clone https://github.com/convex/dryad.git
     $ npm i
     $ npm run dev
 
 This will create your Convex backend deployment, which will
-attempt to start indexing the default repository (https://github.com/get-convex/convex-helpers).
+attempt to start indexing the default repository (https://github.com/convex/convex-helpers).
 Then, the frontend will start up, running on vite's usual port 5173.
 
 In another terminal in this same repository, launch the Convex dashboard and watch the logs to
@@ -69,7 +69,7 @@ Name the two secret environment variables `OPENAI_API_KEY` and `GITHUB_ACCESS_TO
 
 If you check the `Logs` view in your Convex dashboard, dryad now should
 be running successfully! But it's indexing the default repository,
-`get-convex/convex-helpers`. You probably want it indexing your own
+`convex/convex-helpers`. You probably want it indexing your own
 code instead.
 
 Good news! It's easy to customize dryad's behavior. Dryad keeps all
@@ -169,7 +169,7 @@ reason for that file's inclusion in the result set.
 
 Dryad is quite basic at this point! There are a lot of directions you could take the project in.
 
-The project's issues have been seeded with [a collection of potential extensions and improvements to dryad](https://github.com/get-convex/dryad/labels/good%20first%20issue) to get the wheels turning
+The project's issues have been seeded with [a collection of potential extensions and improvements to dryad](https://github.com/convex/dryad/labels/good%20first%20issue) to get the wheels turning
 about more sophisticated things that could be built from dryad.
 
 Happy hacking!
@@ -194,7 +194,7 @@ built-in database that lets you write your
 [Rust](https://docs.convex.dev/client/rust),
 [ReactNative](https://docs.convex.dev/client/react-native), and
 [Node](https://docs.convex.dev/client/javascript), as well as a straightforward
-[HTTP API](https://github.com/get-convex/convex-js/blob/main/src/browser/http_client.ts#L40).
+[HTTP API](https://github.com/convex/convex-js/blob/main/src/browser/http_client.ts#L40).
 
 The database supports
 [NoSQL-style documents](https://docs.convex.dev/database/document-storage) with
